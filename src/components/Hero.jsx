@@ -72,8 +72,7 @@ export const Hero = () => {
         trigger: '#video-frame',
         start: 'center center',
         end: 'bottom center',
-        scrub: true,
-        markers: true
+        scrub: true
       }
     })
    })
@@ -105,13 +104,13 @@ export const Hero = () => {
       <h1 className="special-font absolute bottom-5 right-5 z-40 text-blue-75 uppercase font-zentry font-black text-3xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem]">G<b>a</b>ming</h1>
     <div className="absolute left-0 top-0 z-40 size-full">
       <div className="mt-24 px-5 sm:px-10">
-        <h1 className="special-font uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem] text-blue-100">redefi<b>n</b>e</h1>
+        <h1 className="special-font uppercase font-zentry font-black text-5xl sm:right-10 sm:text-9xl md:text-9xl lg:text-[12rem] text-blue-100">redefi<b>n</b>e</h1>
         <p className="mb-5 max-w-64 font-robber-regular text-blue-100">Enter the meta game layer <br/> Unleash  They Play Economy</p>
         <Button id="watch-trailer" title="Watch-Trailer" leftIcon={<TiLocationArrow/>} containerClass="!bg-yellow-300 flex-center gap-1">Click here</Button>
       </div>
     </div>
     </div>
-    <h1 className="special-font absolute bottom-5 right-5 text-black uppercase font-zentry font-black text-3xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem]">G<b>a</b>ming</h1>
+    <h1 className="special-font absolute bottom-5 right-5 text-black uppercase font-zentry font-black text-3xl sm:right-10 sm:text-9xl md:text-9xl lg:text-[12rem]">G<b>a</b>ming</h1>
     </div>
   )
 }
